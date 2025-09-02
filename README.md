@@ -10,7 +10,6 @@ University of Palermo, Italia
 ---
 The repository includes implementations of several other well-known EEG classification architectures in the `models.py` file, which can be used as baselines for comparison. These include:
 
-- **ATCNet**:[paper](https://ieeexplore.ieee.org/document/9852687), [original code](https://github.com/Altaheri/EEG-ATCNet)
 - **EEGNet**:[paper](https://arxiv.org/abs/1611.08024), [original code](https://github.com/vlawhern/arl-eegmodels)
 - **EEG-TCNet**:[paper](https://arxiv.org/abs/2006.00622), [original code](https://github.com/iis-eth-zurich/eeg-tcnet)
 - **MBEEG_SENet**:[paper](https://www.mdpi.com/2075-4418/12/4/995)
@@ -24,15 +23,13 @@ The following table presents a comparative analysis of different deep learning m
 
 | Model           | Preprocessing | BCI 2a Acc. | BCI 2a κ | BCI 2b Acc. | BCI 2b κ | HGD Acc. | HGD κ |
 |----------------|---------------|-------------|----------|-------------|----------|----------|--------|
-| ATCNet         | None          | 79.71       | 72.90    | 96.90       | 63.30    | 88.88    | 85.20  |
-|                | RDWT          | 79.51       | 72.70    | 96.74       | 61.90    | 88.26    | 84.30  |
 | EEGTCNet       | None          | 64.35       | 52.50    | 95.81       | 58.90    | 86.60    | 82.10  |
 |                | RDWT          | 68.79       | 58.40    | 96.09       | 66.60    | 87.14    | 82.90  |
-| MBEEG_SENet    | None          | 70.49       | 60.60    | 96.95       | 73.80    | 90.58    | 87.40  |
-|                | RDWT          | 72.72       | 63.60    | 96.28       | 63.50    | 90.26    | 87.00  |         
-| ShallowConvNet | None          | 65.74       | 54.30    | 96.13       | 60.70    | 87.05    | 82.70  |
+| MBEEG_SENet    | None          | 70.49       | 60.60    | 96.39       | 67.10    | 88.61    | 84.80  |
+|                | RDWT          | 72.72       | 63.60    | 96.53       | 64.60    | 90.26    | 87.00  |         
+| ShallowConvNet | None          | 65.74       | 54.30    | 95.85       | 61.80    | 87.05    | 82.70  |
 |                | RDWT          | 66.32       | 55.10    | 95.94       | 62.30    | 87.27    | 87.27  |
-| EEGNet         | None          | 70.79       | 61.10    | 95.85       | 59.60    | 87.32    | 83.10  |
+| EEGNet         | None          | 68.02       | 57.40    | 95.85       | 59.60    | 87.32    | 83.10  |
 |                | RDWT          | 70.10       | 60.10    | 96.06       | 64.00    | 88.08    | 84.10  |
 
 ### **Note**   
