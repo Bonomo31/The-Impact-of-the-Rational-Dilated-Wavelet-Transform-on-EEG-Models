@@ -1,4 +1,4 @@
-# The-Impact-of-the-Rational-Dilated-Wavelet-Transform-on-EEG-Models
+# The Impact of the Rational Dilated Wavelet Transform on EEG Models
 
 
 The impact of a Rational Dilated Wavelet Transform (RDWT) used as a plug-in preprocessing module before standard EEG classifiers. RDWT employs non-integer (rational) dilation factors (e.g., 3/2, 5/3), yielding a more flexible tiling of the time–frequency plane and potentially improving denoising and rhythm-specific enhance-ment in motor imagery settings. Rather than proposing a new network, our objective is to quantify when and how much RDWT helps across eterogeneous backbones and datasets.
