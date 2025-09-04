@@ -1,9 +1,9 @@
-# The Impact of the Rational Dilated Wavelet Transform on EEG Models
+# Investigating the Impact of Rational Dilated Wavelet Transform on Motor Imagery EEG Decoding with Deep Learning Models
 
 
 The impact of a Rational Dilated Wavelet Transform (RDWT) used as a plug-in preprocessing module before standard EEG classifiers. RDWT employs non-integer (rational) dilation factors (e.g., 3/2, 5/3), yielding a more flexible tiling of the time–frequency plane and potentially improving denoising and rhythm-specific enhance-ment in motor imagery settings. Rather than proposing a new network, our objective is to quantify when and how much RDWT helps across eterogeneous backbones and datasets.
 
-Authors : Giuseppe Bonomo, Marco Siino, Rosario Sorbello
+Authors : Giuseppe Bonomo, Marco Siino, Rosario Sorbello, Ilenia Tinnirello
 
 University of Palermo, Italia 
 
@@ -18,7 +18,7 @@ The repository includes implementations of several other well-known EEG classifi
 ----
 # Comparative preprocessing  
 
-The following table presents a comparative analysis of different deep learning models with and without the application of the RDWT (Redundant Discrete Wavelet Transform) preprocessing technique. The evaluation covers three benchmark EEG motor imagery datasets: BCI Competition IV-2a, BCI Competition IV-2b, and the High-Gamma Dataset (HGD). The aim is to assess the impact of RDWT on classification performance (accuracy and Cohen’s kappa score).
+The following table presents a comparative analysis of different deep learning models with and without the application of the RDWT (Rational Dilated Wavelet Transform) preprocessing technique. The evaluation covers three benchmark EEG motor imagery datasets: BCI Competition IV-2a, BCI Competition IV-2b, and the High-Gamma Dataset (HGD). The aim is to assess the impact of RDWT on classification performance (accuracy and Cohen’s kappa score).
 
 
 | Model           | Preprocessing | BCI 2a Acc. | BCI 2a κ | BCI 2b Acc. | BCI 2b κ | HGD Acc. | HGD κ |
