@@ -33,12 +33,8 @@ The following table presents a comparative analysis of different deep learning m
 |                | RDWT          | 70.10       | 60.10    | 96.06       | 64.00    | 88.08    | 84.10  |
 
 ### **Note**   
-> - The recomputed results for these datasets (including accuracy/kappa scores) are available in their respective dataset folders.  
-> - *Unlike the previous table, the results reported here for the HGD and BCI IV-2b datasets include an enhanced preprocessing pipeline, which incorporates data augmentation and class balancing techniques. These strategies were employed to address class imbalance and improve the generalization capabilities of the models.*
-> - These values were obtained using our implementation and preprocessing pipeline. Minor deviations from the original papers are expected.
 
-### **Disclaimer**   
-> - The results reported for **BCI 4-2a**, **BCI 4-2b** and **HGD** datasets were not recomputed by us and are directly extracted from the original papers.  
+> - The results reported for **BCI 4-2a**, **BCI 4-2b** and **HGD** datasets have been recalculated by the present researchers, and the results are available in the repository for each dataset.
 > - **HGD (High Gamma Dataset)**: Refers to physically executed movements (executed movements), not motor imagery (motor imagery).
 
 ----
